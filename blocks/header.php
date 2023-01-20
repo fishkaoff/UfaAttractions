@@ -3,7 +3,7 @@ $url = $_SERVER['REQUEST_URI'];
 $url = explode('?', $url);
 $url = $url[0]; // /pages/index.php
 
-$indexUrl = '/pages/index.php';
+$indexUrl = '/index.php';
 $contactUrl = '/pages/contact.php';
 $aboutUrl = '/pages/about.php';
 $placesUrl = '/pages/places.php';
@@ -28,7 +28,7 @@ $placesUrl = '/pages/places.php';
             <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                 <ul class="navbar-nav text-uppercase">
                     <li class="nav-item <?php $url === $indexUrl ? print('active') : print('') ?>">
-                        <a class="nav-link tm-nav-link" href="../pages/index.php" id="Home">Home</a>
+                        <a class="nav-link tm-nav-link" href="../index.php" id="Home">Home</a>
                     </li>
                     <li class="nav-item <?php $url === $aboutUrl ? print('active') : print('') ?>">
                         <a class="nav-link tm-nav-link" href="../pages/about.php" id="About">About</a>

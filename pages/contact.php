@@ -50,9 +50,9 @@
             </div>        
             <div class="tm-col-right tm-col-footer">
                 <footer class="tm-site-footer text-right">
-                    <p class="mb-0">Copyright 2020 Diagoona Co. 
+                    <p class="mb-0">Copyright 2023 fishkaoff Co. 
                     
-                    | Design: <a rel="nofollow" target="_parent" href="https://templatemo.com" class="tm-text-link">TemplateMo</a></p>
+                    | Design: <a rel="nofollow" target="_parent" href="https://vk.com/f1shka0ff" class="tm-text-link">fishkaoff</a></p>
                 </footer>
             </div>  
         </div>

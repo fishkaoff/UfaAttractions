@@ -8,14 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ufa Attractions</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
-    <?php include("../blocks/paths.php");?>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="tm-container">        
         <div>
 
-            <?php include("../blocks/header.php");?>
+            <?php include("blocks/header.php");?>
         
             <div class="tm-row">
                 <div class="tm-col-left"></div>
@@ -55,6 +58,9 @@
         </div>
     </div>
 
-    <?php include("../blocks/pathsToScripts.php");?>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/fishkaoff-script.js"></script>
 </body>
 </html>
